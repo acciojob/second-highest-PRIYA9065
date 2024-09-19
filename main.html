@@ -11,6 +11,15 @@
 		function secondHighest(arr) {
 			//Write your code here
 			
+			arr.sort();
+			if(arr.length < 2){
+				return "Infinity";
+			}
+			else{
+				let secondHighest = arr[n-2];
+				return = secondHighest;
+			}
+			
 		}
 
 		function Main() {
@@ -20,6 +29,7 @@
 				arr[i] = prompt("Enter element " + (i+1));
 			}
 			alert(secondHighest(arr));
+			
 		}
 		Main();
 	</script>
